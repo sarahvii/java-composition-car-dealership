@@ -2,8 +2,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.zip.DeflaterInputStream;
 
 import static org.junit.Assert.assertEquals;
 
@@ -20,7 +18,7 @@ public class CustomerTest {
         vehiclesOwned = new ArrayList<>();
         customer = new Customer(20000.00, vehiclesOwned);
         engine = new Engine(2.5);
-        dieselCar = new DieselCar("green", 14999, engine);
+        dieselCar = new DieselCar("green", 15000, engine);
     }
 
     @Test
@@ -37,5 +35,6 @@ public class CustomerTest {
     public void customerCanBuyVehicle() {
         customer.buyVehicle(dieselCar);
         assertEquals(1, customer.getNumberOfVehiclesOwned());
+        assertEquals(5000, customer.getFunds(), 0.01);
     }
 }

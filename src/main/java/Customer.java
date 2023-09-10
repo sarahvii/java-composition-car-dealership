@@ -20,5 +20,6 @@ public class Customer {
 
     public void buyVehicle(Vehicle vehicle) {
         this.vehiclesOwned.add(vehicle);
+        this.funds -= vehicle.getPrice();
     }
 }
