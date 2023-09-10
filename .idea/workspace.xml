@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7141187-9a9f-4ea0-a526-807ca4cb50b6" name="Changes" comment="electric car created with passing tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HybridCarTest.java" afterDir="false" />
+    <list default="true" id="d7141187-9a9f-4ea0-a526-807ca4cb50b6" name="Changes" comment="hybrid car added and tests passed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,31 +40,31 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HybridCarTest">
-    <configuration name="DieselCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerTest.customerCanBuyVehicle">
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DieselCarTest" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DieselCarTest.hasColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.customerCanBuyVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DieselCarTest" />
-      <option name="METHOD_NAME" value="hasColour" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerCanBuyVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DieselCarTest.hasPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.customerOwnsVehicles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DieselCarTest" />
-      <option name="METHOD_NAME" value="hasPrice" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerOwnsVehicles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.customerCanBuyVehicle" />
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerTest.customerOwnsVehicles" />
         <item itemvalue="JUnit.HybridCarTest" />
         <item itemvalue="JUnit.ElectricCarTest" />
-        <item itemvalue="JUnit.DieselCarTest" />
-        <item itemvalue="JUnit.DieselCarTest.hasPrice" />
-        <item itemvalue="JUnit.DieselCarTest.hasColour" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694373850577</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hybrid car added and tests passed">
+      <created>1694374402754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694374402754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +161,7 @@
     <MESSAGE value="removed vehicle type from vehicle" />
     <MESSAGE value="has engine tests passing" />
     <MESSAGE value="electric car created with passing tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="electric car created with passing tests" />
+    <MESSAGE value="hybrid car added and tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="hybrid car added and tests passed" />
   </component>
 </project>
