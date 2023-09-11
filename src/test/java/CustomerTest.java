@@ -16,7 +16,7 @@ public class CustomerTest {
     @Before
     public void before() {
         vehiclesOwned = new ArrayList<>();
-        customer = new Customer(20000.00, vehiclesOwned);
+        customer = new Customer(20000.00, "Johnny");
         engine = new Engine(2.5);
         dieselCar = new DieselCar("green", 15000, engine);
     }

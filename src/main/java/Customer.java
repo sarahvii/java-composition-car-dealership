@@ -3,11 +3,13 @@ import java.util.ArrayList;
 public class Customer {
 
     private double funds;
+    private String name;
     private ArrayList<Vehicle> vehiclesOwned;
 
-    public Customer(double funds, ArrayList<Vehicle> vehiclesOwned) {
+    public Customer(double funds, String name) {
         this.funds = funds;
-        this.vehiclesOwned = vehiclesOwned;
+        this.name = name;
+        this.vehiclesOwned = new ArrayList<>();
     }
 
     public double getFunds() {

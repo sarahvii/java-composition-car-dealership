@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7141187-9a9f-4ea0-a526-807ca4cb50b6" name="Changes" comment="customer can buy vehicle">
+    <list default="true" id="d7141187-9a9f-4ea0-a526-807ca4cb50b6" name="Changes" comment="customer buying vehicle reduces funds">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CustomerTest.customerCanBuyVehicle">
+  <component name="RunManager" selected="JUnit.DealershipTest.dealershipCanSellCar">
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,51 +52,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.customerCanBuyVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.dealershipCanAddCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerCanBuyVehicle" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="dealershipCanAddCar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.customerOwnsVehicles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.dealershipCanBuyCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerOwnsVehicles" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="dealershipCanBuyCar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectricCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.dealershipCanSellCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectricCarTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="dealershipCanSellCar" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HybridCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.dealershipHasTillWithMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-composition-car-dealership" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HybridCarTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="dealershipHasTillWithMoney" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest.customerCanBuyVehicle" />
+        <item itemvalue="JUnit.DealershipTest.dealershipCanSellCar" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomerTest.customerOwnsVehicles" />
-        <item itemvalue="JUnit.HybridCarTest" />
-        <item itemvalue="JUnit.ElectricCarTest" />
+        <item itemvalue="JUnit.DealershipTest.dealershipCanBuyCar" />
+        <item itemvalue="JUnit.DealershipTest.dealershipCanAddCar" />
+        <item itemvalue="JUnit.DealershipTest.dealershipHasTillWithMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694381543047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="customer buying vehicle reduces funds">
+      <created>1694381971639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694381971639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +181,7 @@
     <MESSAGE value="electric car created with passing tests" />
     <MESSAGE value="hybrid car added and tests passed" />
     <MESSAGE value="customer can buy vehicle" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer can buy vehicle" />
+    <MESSAGE value="customer buying vehicle reduces funds" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer buying vehicle reduces funds" />
   </component>
 </project>
